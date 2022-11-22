@@ -16714,6 +16714,7 @@ function(e) {
             key: "getEffectStr",
             value: function(e) {
                 for (var t in this.effectHash)
+                    console.log(t)
                     if (this.effectHash[t] == e)
                         return t;
                 throw new Error("Code should never reach here.")
